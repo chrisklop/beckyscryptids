@@ -298,7 +298,6 @@ function tapBuyUpgrade(e: Event) {
           <span class="buy-action">Buy <template v-if="bulkN > 1">{{ bulkN }}</template></span>
           <span class="buy-cost">{{ formatCost(buyCost) }} {{ resourceName }}</span>
         </button>
-        <span v-if="!canAffordBuy" class="cost-short">need {{ formatCost(shortfall) }} more</span>
 
         <div class="mgr">
           <button
@@ -332,9 +331,11 @@ function tapBuyUpgrade(e: Event) {
         </div>
       </div>
 
-      <!-- Boost-ladder hint row — only meaningful once you own at least one. -->
-      <div class="row hint" v-if="owned > 0">
-        <span class="hint-text">
+      <!-- Boost-ladder hint row — also surfaces the shortfall when the Buy
+           button is unaffordable, so the action row above stays uniform. -->
+      <div class="row hint">
+        <span v-if="!canAffordBuy" class="cost-short">need {{ formatCost(shortfall) }} more</span>
+        <span v-else-if="owned > 0" class="hint-text">
           <template v-if="nextMilestone !== null">
             Production boost ×{{ currentMilestoneMult }} now → ×{{ nextMilestoneMult }} at {{ nextMilestone }} owned
           </template>
@@ -342,9 +343,7 @@ function tapBuyUpgrade(e: Event) {
             Production boost ×{{ currentMilestoneMult }} — max boosts reached
           </template>
         </span>
-      </div>
-      <div v-else class="row hint">
-        <span class="hint-text"><em>Technique: {{ gen.technique_tag }}</em></span>
+        <span v-else class="hint-text"><em>Technique: {{ gen.technique_tag }}</em></span>
       </div>
     </div>
 
@@ -544,14 +543,19 @@ function tapBuyUpgrade(e: Event) {
   opacity: 0.75;
 }
 
-/* Action row — Buy + Hire/Upgrade buttons side by side. */
+/* Action row — Buy + Hire/Upgrade buttons share the row 50/50.
+   No flex-wrap: the row stays one line so the card height stays uniform
+   across all generators, even when the resource label is long. */
 .actions {
   margin-top: 5px;
-  flex-wrap: wrap;
-  row-gap: 4px;
+  flex-wrap: nowrap;
+  gap: 6px;
+  align-items: stretch;
 }
 .buy-pill {
   display: inline-flex;
+  flex: 1 1 0;
+  min-width: 0;
   flex-direction: column;
   align-items: flex-start;
   gap: 0;
@@ -572,11 +576,20 @@ function tapBuyUpgrade(e: Event) {
 }
 .mgr .btn-riso {
   display: inline-flex;
+  width: 100%;
   flex-direction: column;
   align-items: flex-start;
   gap: 0;
   line-height: 1.15;
   padding: 4px 10px 5px;
+}
+.hire-action,
+.hire-cost {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .hire-action {
   font-size: 10px;
@@ -635,16 +648,24 @@ function tapBuyUpgrade(e: Event) {
 }
 .card:active .icon-big { transform: scale(0.92); }
 
-/* margin-left: auto pins the Hire/Boost slot to the right edge even when
-   the actions row wraps to a second line — without it, a wrapped .mgr
-   ends up justified left and visibly "pops" position when the row
-   overflows or the "need X more" span appears. */
-.mgr { flex-shrink: 0; position: relative; z-index: 1; margin-left: auto; }
+/* Right half of the action row. Shares space 50/50 with .buy-pill so the
+   two buttons stay the same width regardless of label length. */
+.mgr {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  z-index: 1;
+}
 .mgr-on {
   font-family: var(--theme-font-body, -apple-system, sans-serif);
   font-style: italic;
   font-size: 10px;
   opacity: 0.65;
+  align-self: center;
+  text-align: center;
+  width: 100%;
 }
 /* Shown when the player owns at least one but hasn't crossed the
    auto_unlock_at threshold yet — tells them when Hire will appear so
@@ -655,6 +676,11 @@ function tapBuyUpgrade(e: Event) {
   font-size: 10px;
   opacity: 0.6;
   white-space: nowrap;
+  align-self: center;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Popper animations — anchored above the icon. */
