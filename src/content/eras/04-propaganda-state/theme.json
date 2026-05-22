@@ -1,0 +1,32 @@
+{
+  "id": "propaganda-state-poster",
+  "era_id": "propaganda-state",
+  "fonts": {
+    "masthead": "'Special Elite', 'Courier New', monospace",
+    "body": "'IBM Plex Mono', 'Courier New', monospace",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Special+Elite&family=IBM+Plex+Mono:wght@400;700&display=swap"
+  },
+  "palette": {
+    "background": "#0a0e0a",
+    "surface": "#141a14",
+    "text": "#c8e6c8",
+    "muted": "#6a8a6a",
+    "accent": "#52ff52",
+    "border": "#1f2a1f"
+  },
+  "riso": {
+    "primary_bg": "#52ff52",
+    "primary_shadow": "#0a0e0a",
+    "primary_text": "#0a0e0a",
+    "secondary_bg": "#141a14",
+    "secondary_shadow": "#52ff52",
+    "secondary_text": "#c8e6c8",
+    "upgrade_bg": "#ffaa00",
+    "upgrade_shadow": "#0a0e0a",
+    "upgrade_text": "#0a0e0a",
+    "bulk_on_bg": "#52ff52",
+    "bulk_on_shadow": "#0a0e0a",
+    "bulk_on_text": "#0a0e0a"
+  },
+  "card_style": "flat-paper"
+}

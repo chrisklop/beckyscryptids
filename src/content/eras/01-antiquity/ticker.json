@@ -1,0 +1,46 @@
+{
+  "quotes": [
+    {
+      "id": "wendigo-fact",
+      "text": "Algonquian peoples warned of the wendigo — a starving spirit that drove travelers to madness in the deep snow.",
+      "codex_link": "the-wendigo"
+    },
+    {
+      "id": "fae-fact",
+      "text": "European folklore held that iron, salt, and church bells could ward off the fae — every household kept some by the door.",
+      "codex_link": "the-fae-changeling"
+    },
+    {
+      "id": "questing-beast",
+      "text": "Medieval bestiaries described the Questing Beast: the body of a leopard, the haunches of a lion, the feet of a hart, and a voice like thirty hounds.",
+      "codex_link": "the-questing-beast"
+    },
+    {
+      "id": "baba-yaga",
+      "text": "Baba Yaga's hut walked on chicken legs and turned to face whoever spoke the right words.",
+      "codex_link": "baba-yaga"
+    },
+    {
+      "id": "dragon-of-wantley",
+      "text": "Yorkshire ballads claim the Dragon of Wantley was killed by a knight in spiked armor — kicked once in the only soft spot.",
+      "codex_link": "dragon-of-wantley"
+    },
+    {
+      "id": "wild-hunt",
+      "text": "Across Europe the Wild Hunt rode through winter skies — Odin, King Arthur, or the Devil, depending on whose grandmother you asked.",
+      "codex_link": "the-wild-hunt"
+    },
+    {
+      "id": "thunderbird-quote",
+      "text": "Indigenous nations of the Pacific Northwest carved the Thunderbird on poles — wings wide enough to darken the sky.",
+      "codex_link": null
+    },
+    {
+      "id": "selkie-quote",
+      "text": "Scottish coastal folk swore that selkies shed their seal skins on the shore and danced as women under the moon.",
+      "codex_link": null
+    }
+  ],
+  "interval_ms": 8000,
+  "no_repeat_within": 3
+}

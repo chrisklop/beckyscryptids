@@ -1,0 +1,301 @@
+{
+  "id": "printing-press",
+  "ordinal": 2,
+  "date_range": "Age of Sail (~1500 – 1800)",
+  "display_name": "Beyond the Map",
+  "theme_id": "printing-press-broadsheet",
+  "techniques_unlocked": [
+    "impersonation",
+    "discrediting",
+    "trolling",
+    "polarization",
+    "conspiracy"
+  ],
+  "generators": [
+    {
+      "id": "compose-broadside",
+      "tier": 1,
+      "display_name": "Sketch in the Logbook",
+      "description": "Pull out the leather logbook and sketch what just surfaced off the bow. Tap to gain 1 Sailor's Tale. A Cabin Boy will take over the sketches at 10 owned.",
+      "technique_tag": "polarization",
+      "resource": "rumor",
+      "base_cost": 4,
+      "cost_growth": 1.07,
+      "base_production": 1,
+      "is_click_driven": true,
+      "auto_unlock_at": 10,
+      "auto_operative_name": "Cabin Boy",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": null,
+      "reveal_at_lifetime": 0,
+      "cycle_seconds": 1,
+      "manager_cost": 200,
+      "manager_name": "Cabin Boy",
+      "icon": "📓",
+      "upgrades": [
+        {
+          "id": "compose-broadside-iron-frame-press",
+          "name": "India Ink Reserves",
+          "description": "Better ink means a sketch survives the salt spray.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 10000
+        },
+        {
+          "id": "compose-broadside-italic-punch-cutter",
+          "name": "Steady Hand at Sea",
+          "description": "The cabin boy braces against the swell — neater lines, more detail.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 250000
+        },
+        {
+          "id": "compose-broadside-antwerp-distribution",
+          "name": "Letter-of-Marque Network",
+          "description": "Privateers carry your sketches between every major harbor.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 5000000
+        }
+      ]
+    },
+    {
+      "id": "print-pamphlet",
+      "tier": 2,
+      "display_name": "Pen a Captain's Tale",
+      "description": "Write up the voyage for the tavern crowd. Pay a Tavern Bard to read it aloud each night.",
+      "technique_tag": "polarization",
+      "resource": "rumor",
+      "base_cost": 1250,
+      "cost_growth": 1.07,
+      "base_production": 35,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Tavern Bard",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "krakens-attack-norway",
+      "reveal_at_lifetime": 250,
+      "cycle_seconds": 3,
+      "manager_cost": 10000,
+      "manager_name": "Tavern Bard",
+      "icon": "🍺",
+      "upgrades": [
+        {
+          "id": "print-pamphlet-vernacular-translator",
+          "name": "Translated to French and Dutch",
+          "description": "The story crosses borders by morning.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 100000
+        },
+        {
+          "id": "print-pamphlet-colporteur-network",
+          "name": "Itinerant Storytellers",
+          "description": "Wandering bards carry the captain's tale inland.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 2500000
+        },
+        {
+          "id": "print-pamphlet-frankfurt-bookfair",
+          "name": "Hanseatic League Booths",
+          "description": "Every dockside fair from Bergen to Lisbon retells the tale.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 50000000
+        }
+      ]
+    },
+    {
+      "id": "commission-woodcut",
+      "tier": 2,
+      "display_name": "Etch the Beast",
+      "description": "Commission a copper-plate of the monster. Image is argument; pictures sell what words can't.",
+      "technique_tag": "impersonation",
+      "resource": "rumor",
+      "base_cost": 6250,
+      "cost_growth": 1.1,
+      "base_production": 350,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Mapmaker's Workshop",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": null,
+      "reveal_at_lifetime": 1500,
+      "cycle_seconds": 5,
+      "manager_cost": 50000,
+      "manager_name": "Mapmaker's Workshop",
+      "icon": "🗺️",
+      "upgrades": [
+        {
+          "id": "commission-woodcut-cranach-apprentices",
+          "name": "Engraver's Apprentices",
+          "description": "Three carvers per plate; ten plates a week.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 4000000
+        },
+        {
+          "id": "commission-woodcut-coloured-stencil",
+          "name": "Hand-Tinted Plates",
+          "description": "A green-scaled kraken sells twice as well as a black-ink one.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 100000000
+        },
+        {
+          "id": "commission-woodcut-two-block-registration",
+          "name": "Cartographer's Endorsement",
+          "description": "The beast is now on the official sea-chart, right next to the depth lines.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 2000000000
+        }
+      ]
+    },
+    {
+      "id": "forge-decree",
+      "tier": 3,
+      "display_name": "Forge a Survivor's Letter",
+      "description": "A heart-rending letter from the only man to come back from the voyage. The Forger fills in the names.",
+      "technique_tag": "impersonation",
+      "resource": "rumor",
+      "base_cost": 31250,
+      "cost_growth": 1.1,
+      "base_production": 3500,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Letter Forger",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "great-sea-serpent",
+      "reveal_at_lifetime": 7500,
+      "cycle_seconds": 8,
+      "manager_cost": 500000,
+      "manager_name": "Letter Forger",
+      "icon": "✍️",
+      "upgrades": [
+        {
+          "id": "forge-decree-royal-waxseal",
+          "name": "Admiralty Wax-Seal",
+          "description": "A passable copy of the Admiralty's privy seal, ready by tide.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 25000000
+        },
+        {
+          "id": "forge-decree-chancery-tutors",
+          "name": "Naval Chancery Hand",
+          "description": "Three former clerks teach the forgers the exact official script.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 600000000
+        },
+        {
+          "id": "forge-decree-anti-authentication",
+          "name": "Beyond the Inspectors",
+          "description": "Even the king's philologists cannot tell the survivor's letter from the real thing.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 12000000000
+        }
+      ]
+    },
+    {
+      "id": "witch-pamphlet",
+      "tier": 3,
+      "display_name": "Naturalist's Treatise",
+      "description": "A respectable royal-society treatise classifies every monster — invented and otherwise — as a confirmed species.",
+      "technique_tag": "conspiracy",
+      "resource": "rumor",
+      "base_cost": 50000,
+      "cost_growth": 1.1,
+      "base_production": 5000,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Royal Naturalist",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "monstrum-marinum",
+      "reveal_at_lifetime": 15000,
+      "cycle_seconds": 10,
+      "manager_cost": 800000,
+      "manager_name": "Royal Naturalist",
+      "icon": "📚",
+      "upgrades": [
+        {
+          "id": "witch-pamphlet-bishops-imprimatur",
+          "name": "Royal Society Imprimatur",
+          "description": "Official scientific approval turns a sailor's yarn into Linnaean fact.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 40000000
+        },
+        {
+          "id": "witch-pamphlet-illustrated-confessions",
+          "name": "Folio of Color Plates",
+          "description": "Each species drawn in glorious detail — three times the subscriber list.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 1000000000
+        },
+        {
+          "id": "witch-pamphlet-standing-commission",
+          "name": "Standing Naturalist Commission",
+          "description": "A permanent academic body to classify, print, and never quite retract.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 20000000000
+        }
+      ]
+    },
+    {
+      "id": "newsbook-press",
+      "tier": 4,
+      "display_name": "Mariner's Gazette",
+      "description": "Weekly periodical of the world's strangest sailor's tales. By subscription, post-paid.",
+      "technique_tag": "polarization",
+      "resource": "rumor",
+      "base_cost": 156250,
+      "cost_growth": 1.12,
+      "base_production": 35000,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Gazette Editor",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": null,
+      "reveal_at_lifetime": 75000,
+      "cycle_seconds": 20,
+      "manager_cost": 20000000,
+      "manager_name": "Gazette Editor",
+      "icon": "📜",
+      "upgrades": [
+        {
+          "id": "newsbook-press-stereotype-plates",
+          "name": "Stereotype Plates",
+          "description": "Mould the type once; run it forever. No resetting between issues.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 150000000
+        },
+        {
+          "id": "newsbook-press-weekly-cadence",
+          "name": "Weekly Issue Cadence",
+          "description": "Readers wait for it now. A standing audience is a multiplier.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 4000000000
+        },
+        {
+          "id": "newsbook-press-lloyds-distribution",
+          "name": "Lloyd's Coffee-House Distribution",
+          "description": "Every shipping insurer in London reads the gazette before they price a hull.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 80000000000
+        }
+      ]
+    }
+  ],
+  "prestige_into": "penny-press",
+  "prestige_pivot": 100000000000000,
+  "prestige_bridge_copy": "Steam arrives. The sails come down, the cameras come out, and the monsters move ashore. Sailors retire to lakeside taverns. The lake has a monster of its own."
+}

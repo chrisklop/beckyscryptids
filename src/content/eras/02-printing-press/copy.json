@@ -1,0 +1,10 @@
+{
+  "masthead_title": "BEYOND THE MAP",
+  "masthead_subtitle": "A LOGBOOK OF MONSTERS SIGHTED & SWORN-TO",
+  "resource_labels": { "rumor": "Sailor's Tales", "reach": "Port Towns", "cred": "Charters" },
+  "prestige_button_label": "Strike Out for the Newsstand Age",
+  "prestige_confirm_title": "Cross the Equator?",
+  "prestige_confirm_body": "Lore Inheritance carries forward. The next age has steam, photographs, and newsprint — and it remembers every monster we ever saw off the bow.",
+  "reveal_placeholder_text": "Something larger surfaces just beyond the bow.",
+  "prestige_ready_toast": "Ship's ready. Set sail when you are."
+}

@@ -1,0 +1,14 @@
+{
+  "quotes": [
+    { "id": "kenneth-arnold-quote", "text": "Kenneth Arnold, June 24 1947: nine objects \"like saucers skipping across water\" near Mount Rainier. The phrase was coined that afternoon.", "codex_link": "kenneth-arnold-1947" },
+    { "id": "betty-and-barney", "text": "Betty and Barney Hill described their 1961 abduction under hypnosis; Betty's hand-drawn star map matched Zeta Reticuli well enough to trouble astronomers.", "codex_link": "betty-and-barney-hill" },
+    { "id": "alien-autopsy", "text": "The 1995 \"Alien Autopsy\" film, hyped on Fox prime-time, was admitted by Ray Santilli twenty years later to be a reconstruction.", "codex_link": "fox-alien-autopsy-1995" },
+    { "id": "mj12", "text": "The Majestic-12 documents arrived anonymously by mail in 1984. The FBI eventually filed them under \"completely bogus.\"", "codex_link": "majestic-12-documents" },
+    { "id": "men-in-black", "text": "Albert Bender's 1953 visitors are the canonical Men in Black — three pale figures who appeared in his bedroom and told him to stop investigating UFOs.", "codex_link": "men-in-black-folklore" },
+    { "id": "tic-tac-quote", "text": "In 2017 the Pentagon admitted that the AATIP program had studied unexplained military encounters, and quietly released the three Navy 'tic-tac' videos.", "codex_link": "navy-tic-tac-videos" },
+    { "id": "fatima-quote", "text": "70,000 people in Fátima, Portugal, October 13, 1917, reported the sun dancing in the sky — sometimes cited as the first modern mass UAP sighting.", "codex_link": null },
+    { "id": "hessdalen-quote", "text": "Hessdalen Valley in Norway has had recurring unexplained light phenomena since the 1980s — studied by scientists, never explained.", "codex_link": null }
+  ],
+  "interval_ms": 8000,
+  "no_repeat_within": 3
+}

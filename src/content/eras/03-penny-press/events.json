@@ -1,0 +1,51 @@
+[
+  {
+    "id": "bigfoot-tracks",
+    "headline": "🔥 FRESH BIGFOOT TRACKS FOUND OUTSIDE WILLOW CREEK",
+    "claim_verb": "RUN THE PHOTO",
+    "claim_window_s": 20,
+    "effect": { "type": "rumor_mult", "value": 3.0, "duration_s": 30 },
+    "weight": 2
+  },
+  {
+    "id": "nessie-surfaces",
+    "headline": "🔥 NESSIE SURFACES — TOURIST'S CAMERA IS ROLLING",
+    "claim_verb": "PRINT THE STILL",
+    "claim_window_s": 18,
+    "effect": { "type": "rumor_mult", "value": 2.5, "duration_s": 45 },
+    "weight": 2
+  },
+  {
+    "id": "mothman-bridge",
+    "headline": "🔥 MOTHMAN SEEN AGAIN ABOVE THE SILVER BRIDGE",
+    "claim_verb": "GO TO PRESS",
+    "claim_window_s": 20,
+    "effect": { "type": "rumor_mult", "value": 2.0, "duration_s": 60 },
+    "weight": 3
+  },
+  {
+    "id": "yeti-footprint",
+    "headline": "🔥 YETI FOOTPRINT PHOTOGRAPHED AT 19,000 FEET",
+    "claim_verb": "WIRE IT OUT",
+    "claim_window_s": 22,
+    "effect": { "type": "rumor_mult", "value": 1.75, "duration_s": 90 },
+    "weight": 3
+  },
+  {
+    "id": "chupacabra-livestock",
+    "headline": "🔥 CHUPACABRA STRIKES AGAIN — TEN GOATS DEAD OUTSIDE TOWN",
+    "claim_verb": "BROADCAST IT",
+    "claim_window_s": 15,
+    "effect": { "type": "rumor_mult", "value": 5.0, "duration_s": 20 },
+    "weight": 1
+  },
+  {
+    "id": "newsstand-frenzy",
+    "headline": "⚡ FRENZY: EVERY TABLOID GOES CRYPTID — NEWSSTANDS CLEANED OUT",
+    "claim_verb": "FLOOD THE STANDS",
+    "claim_window_s": 10,
+    "effect": { "type": "rumor_mult", "value": 10.0, "duration_s": 10 },
+    "weight": 1,
+    "is_frenzy": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+	"$schema": "./projInfo-schema.json",
+
+	"title": "Becky's Cryptid Adventure",
+	"description": "A cryptid-hunting incremental game — from campfire legends to Area 51.",
+	"id": "becky-cryptid-2026",
+	"author": "Chris Klopfenstein",
+	"discordName": "",
+	"discordLink": "",
+
+	"versionNumber": "0.1.0",
+	"versionTitle": "Phase 1 MVP",
+
+	"allowGoBack": true,
+	"defaultShowSmall": false,
+	"defaultDecimalsShown": 2,
+	"useHeader": false,
+	"banner": null,
+	"logo": "",
+	"initialTabs": [ "main" ],
+
+	"maxTickLength": 3600,
+	"offlineLimit": 1,
+	"enablePausing": true,
+	"exportEncoding": "base64",
+	"disableHealthWarning": true
+}

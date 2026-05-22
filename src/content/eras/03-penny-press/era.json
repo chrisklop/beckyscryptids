@@ -1,0 +1,302 @@
+{
+  "id": "penny-press",
+  "ordinal": 3,
+  "date_range": "Modern Sightings Era (~1900 – 1990)",
+  "display_name": "Caught on Film",
+  "theme_id": "penny-press-victorian",
+  "techniques_unlocked": [
+    "impersonation",
+    "discrediting",
+    "trolling",
+    "polarization",
+    "conspiracy",
+    "emotion"
+  ],
+  "generators": [
+    {
+      "id": "set-headline",
+      "tier": 1,
+      "display_name": "Snap a Blurry Photo",
+      "description": "Point the Kodak in roughly the right direction. Tap to gain 1 Sighting. At 10 owned, a Tourist with a Brownie takes over.",
+      "technique_tag": "emotion",
+      "resource": "rumor",
+      "base_cost": 4,
+      "cost_growth": 1.07,
+      "base_production": 1,
+      "is_click_driven": true,
+      "auto_unlock_at": 10,
+      "auto_operative_name": "Tourist with a Brownie",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": null,
+      "reveal_at_lifetime": 0,
+      "cycle_seconds": 1,
+      "manager_cost": 200,
+      "manager_name": "Tour Bus Driver",
+      "icon": "📷",
+      "upgrades": [
+        {
+          "id": "set-headline-two-cent-edition",
+          "name": "Faster Shutter",
+          "description": "Catch something almost in focus.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 15000
+        },
+        {
+          "id": "set-headline-scare-banner",
+          "name": "Telephoto Lens",
+          "description": "Now the blur is far away AND big.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 400000
+        },
+        {
+          "id": "set-headline-street-vendor-army",
+          "name": "Bus Tours of the Hot Zone",
+          "description": "Tourists rotate through Willow Creek hourly.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 8000000
+        }
+      ]
+    },
+    {
+      "id": "manufactured-scoop",
+      "tier": 2,
+      "display_name": "Local Paper Scoop",
+      "description": "The county weekly runs a front-page eyewitness piece. Steady Sighting production.",
+      "technique_tag": "emotion",
+      "resource": "rumor",
+      "base_cost": 6250,
+      "cost_growth": 1.07,
+      "base_production": 175,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Cub Reporter",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "loch-ness-1934-photo",
+      "reveal_at_lifetime": 1250,
+      "cycle_seconds": 2,
+      "manager_cost": 50000,
+      "manager_name": "Cub Reporter",
+      "icon": "🗞️",
+      "upgrades": [
+        {
+          "id": "manufactured-scoop-reporters-rolodex",
+          "name": "Sheriff's Quote Department",
+          "description": "Every county sheriff in three states owes us a comment.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 500000
+        },
+        {
+          "id": "manufactured-scoop-composite-quote",
+          "name": "Composite Eyewitness",
+          "description": "Two real anonymous tipsters combine into one juicy named one.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 15000000
+        },
+        {
+          "id": "manufactured-scoop-plant-the-source",
+          "name": "Plant the Tipster",
+          "description": "We supply the witness, the witness's story, AND the witness's indignation.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 300000000
+        }
+      ]
+    },
+    {
+      "id": "wire-service-plant",
+      "tier": 2,
+      "display_name": "Wire-Service Bigfoot",
+      "description": "One AP dispatch from Willow Creek hits two hundred dailies by morning.",
+      "technique_tag": "polarization",
+      "resource": "rumor",
+      "base_cost": 31250,
+      "cost_growth": 1.1,
+      "base_production": 1750,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "AP Stringer",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": null,
+      "reveal_at_lifetime": 7500,
+      "cycle_seconds": 5,
+      "manager_cost": 250000,
+      "manager_name": "AP Stringer",
+      "icon": "📡",
+      "upgrades": [
+        {
+          "id": "wire-service-plant-ap-stringer-pool",
+          "name": "Stringer Pool",
+          "description": "One slanted dispatch reprinted in three hundred small-town dailies by sundown.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 25000000
+        },
+        {
+          "id": "wire-service-plant-transatlantic-cable",
+          "name": "Transatlantic Tabloid Deal",
+          "description": "Fleet Street and the New York tabloids run the same hook on the same day.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 800000000
+        },
+        {
+          "id": "wire-service-plant-synthetic-correspondent",
+          "name": "Anonymous Correspondent",
+          "description": "A foreign-bureau byline that has never existed; readers don't notice.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 16000000000
+        }
+      ]
+    },
+    {
+      "id": "halftone-engraving",
+      "tier": 3,
+      "display_name": "Stage a Footage Reel",
+      "description": "Sixteen-millimeter, hand-held, conveniently shaky. Compounds Sighting output.",
+      "technique_tag": "emotion",
+      "resource": "rumor",
+      "base_cost": 156250,
+      "cost_growth": 1.1,
+      "base_production": 17500,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "8mm Filmmaker",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "patterson-gimlin-1967",
+      "reveal_at_lifetime": 40000,
+      "cycle_seconds": 10,
+      "manager_cost": 2000000,
+      "manager_name": "8mm Filmmaker",
+      "icon": "🎞️",
+      "upgrades": [
+        {
+          "id": "halftone-engraving-rotary-flatbed",
+          "name": "16mm Color Stock",
+          "description": "Color makes the suit feel real. Cheaper than fixing the suit.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 200000000
+        },
+        {
+          "id": "halftone-engraving-staged-tableau",
+          "name": "Forest Sound Stage",
+          "description": "Re-enactments shot on a fenced-off Oregon clearing, passed as wildlife.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 5000000000
+        },
+        {
+          "id": "halftone-engraving-composite-photograph",
+          "name": "Optical Compositing",
+          "description": "Splice the costume into the footprint footage. Critics will argue for fifty years.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 100000000000
+        }
+      ]
+    },
+    {
+      "id": "patent-medicine-ad",
+      "tier": 3,
+      "display_name": "Roadside Attraction",
+      "description": "A barn-side billboard, a gift shop, a five-dollar 'glimpse' tour. Cryptid tourism.",
+      "technique_tag": "impersonation",
+      "resource": "rumor",
+      "base_cost": 250000,
+      "cost_growth": 1.1,
+      "base_production": 25000,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Roadside Showman",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": null,
+      "reveal_at_lifetime": 70000,
+      "cycle_seconds": 12,
+      "manager_cost": 5000000,
+      "manager_name": "Roadside Showman",
+      "icon": "🪧",
+      "upgrades": [
+        {
+          "id": "patent-medicine-ad-testimonial-stable",
+          "name": "Testimonial Stable",
+          "description": "Fifty grateful 'witnesses' on retainer, $5 a quote in the guestbook.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 350000000
+        },
+        {
+          "id": "patent-medicine-ad-editorial-camouflage",
+          "name": "Chamber-of-Commerce Backing",
+          "description": "The town officially adopts the cryptid as its mascot. T-shirts at the gas station.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 9000000000
+        },
+        {
+          "id": "patent-medicine-ad-syndicated-cure",
+          "name": "Cryptid Festival",
+          "description": "Annual three-day event; 30,000 attendees; sponsors line up.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 180000000000
+        }
+      ]
+    },
+    {
+      "id": "okhrana-forgery",
+      "tier": 4,
+      "display_name": "Patterson-Gimlin Reel",
+      "description": "A 60-second film clip that becomes the foundational evidence for an entire field. Decades of careful re-analysis. Decades of careful arguments. Compounds Sightings.",
+      "technique_tag": "conspiracy",
+      "resource": "rumor",
+      "base_cost": 781250,
+      "cost_growth": 1.12,
+      "base_production": 175000,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Hoaxer Crew",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "mothman-point-pleasant",
+      "reveal_at_lifetime": 200000,
+      "cycle_seconds": 25,
+      "manager_cost": 200000000,
+      "manager_name": "Hoaxer Crew",
+      "icon": "🎬",
+      "upgrades": [
+        {
+          "id": "okhrana-forgery-protocols-distribution",
+          "name": "Film Festival Premiere",
+          "description": "Sneak the clip into the documentary circuit; reviewers cannot agree.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 1500000000
+        },
+        {
+          "id": "okhrana-forgery-dual-language-edition",
+          "name": "Foreign Press Tour",
+          "description": "London, Tokyo, Moscow — every wire service picks up the same still frame.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 40000000000
+        },
+        {
+          "id": "okhrana-forgery-century-of-believers",
+          "name": "A Generation of Believers",
+          "description": "Even when partially debunked, the original reel keeps spreading. The kids of the original eyewitnesses defend it.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 800000000000
+        }
+      ]
+    }
+  ],
+  "prestige_into": "propaganda-state",
+  "prestige_pivot": 500000000000000,
+  "prestige_bridge_copy": "The forests empty of tourists. The lake settles. And up there — between the satellites and the high-altitude weather balloons — something rolls a metallic disc just inside the edge of radar. The cryptids have flying machines now."
+}

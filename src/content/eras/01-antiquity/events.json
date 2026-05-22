@@ -1,0 +1,51 @@
+[
+  {
+    "id": "wolves-howling",
+    "headline": "🔥 WOLVES HOWL ALL NIGHT — THE OLD STORIES ARE TRUE",
+    "claim_verb": "TELL IT AGAIN",
+    "claim_window_s": 20,
+    "effect": { "type": "rumor_mult", "value": 3.0, "duration_s": 30 },
+    "weight": 2
+  },
+  {
+    "id": "changeling-in-the-cradle",
+    "headline": "🔥 BABY SWAPPED FOR A CHANGELING, SAYS THE MIDWIFE",
+    "claim_verb": "WHISPER IT",
+    "claim_window_s": 18,
+    "effect": { "type": "rumor_mult", "value": 2.5, "duration_s": 45 },
+    "weight": 2
+  },
+  {
+    "id": "comet-omen",
+    "headline": "🔥 COMET STREAKS OVER THE VILLAGE — DARK OMEN FROM THE OLD GODS",
+    "claim_verb": "READ THE SIGN",
+    "claim_window_s": 20,
+    "effect": { "type": "rumor_mult", "value": 2.0, "duration_s": 60 },
+    "weight": 3
+  },
+  {
+    "id": "salt-shortage",
+    "headline": "🔥 SALT GONE FROM THE LARDER — HOUSEHOLD SPIRITS BLAMED",
+    "claim_verb": "CARRY THE WORD",
+    "claim_window_s": 22,
+    "effect": { "type": "rumor_mult", "value": 1.75, "duration_s": 90 },
+    "weight": 3
+  },
+  {
+    "id": "thunderbird-sighted",
+    "headline": "🔥 THUNDERBIRD CASTS A SHADOW ON THE LAKE — RAIN INCOMING",
+    "claim_verb": "INVOKE IT",
+    "claim_window_s": 15,
+    "effect": { "type": "rumor_mult", "value": 5.0, "duration_s": 20 },
+    "weight": 1
+  },
+  {
+    "id": "fae-revel",
+    "headline": "⚡ FRENZY: FAE REVEL IN THE GLEN — EVERY WORD CARRIES THE GLAMOUR",
+    "claim_verb": "JOIN THE DANCE",
+    "claim_window_s": 10,
+    "effect": { "type": "rumor_mult", "value": 10.0, "duration_s": 10 },
+    "weight": 1,
+    "is_frenzy": true
+  }
+]

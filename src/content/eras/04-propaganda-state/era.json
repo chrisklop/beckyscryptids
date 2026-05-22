@@ -1,0 +1,302 @@
+{
+  "id": "propaganda-state",
+  "ordinal": 4,
+  "date_range": "UFO Age (1947 – present)",
+  "display_name": "They Are Among Us",
+  "theme_id": "propaganda-state-poster",
+  "techniques_unlocked": [
+    "atrocity-calibration",
+    "manufactured-event",
+    "monumental-aesthetic",
+    "big-lie",
+    "black-propaganda",
+    "photographic-falsification"
+  ],
+  "generators": [
+    {
+      "id": "four-minute-speech",
+      "tier": 1,
+      "display_name": "Call the Late-Night Hotline",
+      "description": "Dial in, describe what you saw last Tuesday around 2am. Tap to gain 1 Encounter. At 10 owned, a Call-In Host takes over.",
+      "technique_tag": "manufactured-event",
+      "resource": "rumor",
+      "base_cost": 4,
+      "cost_growth": 1.07,
+      "base_production": 1,
+      "is_click_driven": true,
+      "auto_unlock_at": 10,
+      "auto_operative_name": "Late-Night Host",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "kenneth-arnold-1947",
+      "reveal_at_lifetime": 0,
+      "cycle_seconds": 1,
+      "manager_cost": 200,
+      "manager_name": "Late-Night Host",
+      "icon": "📞",
+      "upgrades": [
+        {
+          "id": "four-minute-speech-script-bank",
+          "name": "Stock Question List",
+          "description": "Every caller, same five prompts: what did you see, where, when, who else, were there missing minutes.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 12000
+        },
+        {
+          "id": "four-minute-speech-bond-rallies",
+          "name": "Convention Circuit",
+          "description": "Hotline becomes hotel ballroom. Believers gather, callers get awards.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 300000
+        },
+        {
+          "id": "four-minute-speech-foreign-press",
+          "name": "International Affiliate Stations",
+          "description": "Spanish, Japanese, German hotlines, same call-screening rules.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 6000000
+        }
+      ]
+    },
+    {
+      "id": "war-bonds-poster",
+      "tier": 2,
+      "display_name": "Disclosure Flier Drop",
+      "description": "Mimeographed broadsides nailed to telephone poles. THE TRUTH IS OUT THERE.",
+      "technique_tag": "emotion",
+      "resource": "rumor",
+      "base_cost": 5000,
+      "cost_growth": 1.07,
+      "base_production": 35,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Flying-Saucer Pamphleteer",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": null,
+      "reveal_at_lifetime": 250,
+      "cycle_seconds": 3,
+      "manager_cost": 8000,
+      "manager_name": "Pamphleteer",
+      "icon": "🛸",
+      "upgrades": [
+        {
+          "id": "war-bonds-poster-lithography",
+          "name": "Offset Printer",
+          "description": "Tens of thousands of fliers per night, ready by morning paper-route.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 60000
+        },
+        {
+          "id": "war-bonds-poster-celebrity",
+          "name": "Celebrity Endorsement",
+          "description": "A rock star wears the disclosure pin on stage. The pin sells more than the album.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 1500000
+        },
+        {
+          "id": "war-bonds-poster-streetcar-ads",
+          "name": "Greyhound Bus Posters",
+          "description": "Captive audience, six-hour rides, two cross-country routes a week.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 30000000
+        }
+      ]
+    },
+    {
+      "id": "atrocity-pamphlet",
+      "tier": 2,
+      "display_name": "Abduction Memoir",
+      "description": "A tell-all paperback. Hypnotic regression. Missing time. The publisher orders a second printing within a week.",
+      "technique_tag": "atrocity-calibration",
+      "resource": "rumor",
+      "base_cost": 25000,
+      "cost_growth": 1.1,
+      "base_production": 250,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Hypnotic Regressionist",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "betty-and-barney-hill",
+      "reveal_at_lifetime": 1500,
+      "cycle_seconds": 5,
+      "manager_cost": 50000,
+      "manager_name": "Regressionist",
+      "icon": "📖",
+      "upgrades": [
+        {
+          "id": "atrocity-pamphlet-translator-pool",
+          "name": "International Co-Editions",
+          "description": "Same abduction, seventeen languages, translated first into the believer markets.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 200000
+        },
+        {
+          "id": "atrocity-pamphlet-corpse-factory",
+          "name": "Implant Recovery Lab",
+          "description": "Tiny grey objects, recovered surgically, displayed on TV. Provenance fuzzy.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 5000000
+        },
+        {
+          "id": "atrocity-pamphlet-eyewitness-files",
+          "name": "Sealed Witness Archive",
+          "description": "Affidavits no one can verify, archived just out of reach of every reporter.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 100000000
+        }
+      ]
+    },
+    {
+      "id": "newsreel-cinema",
+      "tier": 3,
+      "display_name": "Cable Documentary Reenactment",
+      "description": "The Discovery Channel, the History Channel, the Travel Channel. Same eight reenactment actors recycled across thirty episodes.",
+      "technique_tag": "monumental-aesthetic",
+      "resource": "rumor",
+      "base_cost": 150000,
+      "cost_growth": 1.1,
+      "base_production": 2500,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Cable-TV Producer",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "fox-alien-autopsy-1995",
+      "reveal_at_lifetime": 7500,
+      "cycle_seconds": 8,
+      "manager_cost": 500000,
+      "manager_name": "Producer",
+      "icon": "📺",
+      "upgrades": [
+        {
+          "id": "newsreel-cinema-sound-on-film",
+          "name": "Cinematic Music Cues",
+          "description": "Strings on the witness's face, brass for the saucer. The cue does half the work.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 1500000
+        },
+        {
+          "id": "newsreel-cinema-riefenstahl-grammar",
+          "name": "Documentary Visual Grammar",
+          "description": "Low-angle witness shots. Sweeping aerial of the supposed crash site. Choral dread.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 40000000
+        },
+        {
+          "id": "newsreel-cinema-compulsory-screening",
+          "name": "Streaming-Service Auto-Play",
+          "description": "Watched one episode? Three more queue up before you can reach the remote.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 800000000
+        }
+      ]
+    },
+    {
+      "id": "big-lie-broadcast",
+      "tier": 3,
+      "display_name": "Coast-to-Coast Broadcast",
+      "description": "Art Bell at the mic, 1am Pacific, every truck stop and overnight shift listening. One voice, all night, the whole continent.",
+      "technique_tag": "big-lie",
+      "resource": "rumor",
+      "base_cost": 1000000,
+      "cost_growth": 1.1,
+      "base_production": 25000,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Overnight Radio Host",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "majestic-12-documents",
+      "reveal_at_lifetime": 30000,
+      "cycle_seconds": 12,
+      "manager_cost": 3000000,
+      "manager_name": "Overnight Host",
+      "icon": "📻",
+      "upgrades": [
+        {
+          "id": "big-lie-broadcast-cheap-receiver",
+          "name": "Affiliate Network",
+          "description": "500 AM stations from Boston to Bakersfield, every overnight slot tied up.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 12000000
+        },
+        {
+          "id": "big-lie-broadcast-jamming-array",
+          "name": "Sidelined the Skeptics",
+          "description": "The skeptic guest hour becomes the recurring \"believer\" hour. Critics don't get invited back.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 300000000
+        },
+        {
+          "id": "big-lie-broadcast-doctrine-of-repetition",
+          "name": "Doctrine of Repetition",
+          "description": "The same caller, the same story, the same insistence — week after week, year after year. Eventually it just IS the consensus.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 6000000000
+        }
+      ]
+    },
+    {
+      "id": "black-flag-radio",
+      "tier": 4,
+      "display_name": "Men in Black Counter-Op",
+      "description": "Three pale men in dark suits arrive at the witness's door. They are very polite. They strongly suggest he never speak of it again. He never does.",
+      "technique_tag": "black-propaganda",
+      "resource": "rumor",
+      "base_cost": 5000000,
+      "cost_growth": 1.12,
+      "base_production": 250000,
+      "is_click_driven": false,
+      "auto_unlock_at": 0,
+      "auto_operative_name": "Disinformation Officer",
+      "milestones": [25, 50, 100, 200, 300, 400],
+      "codex_link": "men-in-black-folklore",
+      "reveal_at_lifetime": 100000,
+      "cycle_seconds": 25,
+      "manager_cost": 30000000,
+      "manager_name": "Disinformation Officer",
+      "icon": "🕶️",
+      "upgrades": [
+        {
+          "id": "black-flag-radio-aspidistra-transmitter",
+          "name": "Black-Sedan Fleet",
+          "description": "Identical, unmarked, perfectly polished. They arrive in convoys.",
+          "unlock_at_owned": 25,
+          "multiplier": 3.0,
+          "cost": 60000000
+        },
+        {
+          "id": "black-flag-radio-manufactured-scandal",
+          "name": "Engineered Embarrassment",
+          "description": "The witness's neighbors suddenly all hear about his marital troubles. The story collapses.",
+          "unlock_at_owned": 100,
+          "multiplier": 3.0,
+          "cost": 1500000000
+        },
+        {
+          "id": "black-flag-radio-frontline-defectors",
+          "name": "Friendly Insider Voices",
+          "description": "Real \"former intelligence officers\" appear on podcasts, walk back specific stories, and seed three new ones.",
+          "unlock_at_owned": 200,
+          "multiplier": 5.0,
+          "cost": 30000000000
+        }
+      ]
+    }
+  ],
+  "prestige_into": "antiquity",
+  "prestige_pivot": 2500000000000000,
+  "prestige_bridge_copy": "Disclosure flickers, then fades back into rumor. The investigation closes. Somewhere in a quieter forest, a child hears a story she will never quite shake — and the whole thing begins again."
+}

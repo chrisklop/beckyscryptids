@@ -1,0 +1,14 @@
+{
+  "masthead_title": "WHISPERS IN THE WOODS",
+  "masthead_subtitle": "TALES TOLD AROUND THE FIRE",
+  "resource_labels": {
+    "rumor": "Whispers",
+    "reach": "Believers",
+    "cred": "Lore"
+  },
+  "prestige_button_label": "Sail Beyond the Map",
+  "prestige_confirm_title": "Cross the Horizon?",
+  "prestige_confirm_body": "Lore Inheritance carries forward. Every era after this one begins faster — because the stories you told around the fire are never truly forgotten.",
+  "reveal_placeholder_text": "Something else stirs in the trees.",
+  "prestige_ready_toast": "The sea is calling. Sail whenever you're ready."
+}

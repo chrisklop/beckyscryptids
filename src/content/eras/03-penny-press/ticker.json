@@ -1,0 +1,14 @@
+{
+  "quotes": [
+    { "id": "loch-ness-photo", "text": "The 1934 'Surgeon's Photograph' of Nessie was admitted, sixty years later, to be a toy submarine with a sculpted neck.", "codex_link": "loch-ness-1934-photo" },
+    { "id": "patterson-gimlin", "text": "Roger Patterson's 1967 16mm reel of a striding Bigfoot has been re-analyzed dozens of times. The argument never ends.", "codex_link": "patterson-gimlin-1967" },
+    { "id": "mothman", "text": "From November 1966 to the Silver Bridge collapse in 1967, Point Pleasant, West Virginia reported over 100 Mothman sightings.", "codex_link": "mothman-point-pleasant" },
+    { "id": "yeti-shipton", "text": "Eric Shipton's 1951 photo of a 13-inch footprint on Menlung Glacier remains the most famous Yeti evidence ever published.", "codex_link": "yeti-shipton-tracks" },
+    { "id": "chupacabra-quote", "text": "Madelyne Tolentino's 1995 description of the original Puerto Rico Chupacabra was, she later admitted, lifted directly from the film Species.", "codex_link": "chupacabra-puerto-rico" },
+    { "id": "jersey-devil", "text": "In January 1909, hundreds of New Jersey residents across thirty towns reported seeing the Jersey Devil in a single week.", "codex_link": "jersey-devil-1909" },
+    { "id": "champ-vermont", "text": "Lake Champlain's 'Champ' has been reported by lakeside residents since the 1880s — Vermont has a state law protecting it.", "codex_link": null },
+    { "id": "skunk-ape", "text": "Florida's Skunk Ape was supposedly photographed in 2000 by an anonymous Sarasota grandmother — twice, in detail, never explained.", "codex_link": null }
+  ],
+  "interval_ms": 8000,
+  "no_repeat_within": 3
+}

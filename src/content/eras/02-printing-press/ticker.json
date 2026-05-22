@@ -1,0 +1,14 @@
+{
+  "quotes": [
+    { "id": "kraken-quote", "text": "Bishop Pontoppidan's 1752 'Natural History of Norway' described the kraken as the size of a small island.", "codex_link": "krakens-attack-norway" },
+    { "id": "egede-serpent", "text": "Hans Egede, missionary to Greenland, sketched the great sea serpent he saw in 1734 — a hundred-foot beast.", "codex_link": "great-sea-serpent" },
+    { "id": "olaus-magnus", "text": "Olaus Magnus's 1539 Carta Marina filled every blank stretch of ocean with a teeth-bearing leviathan.", "codex_link": "monstrum-marinum" },
+    { "id": "amboina-mermaid", "text": "Renard's 1717 'Fishes of Amboina' included an illustrated mermaid — fully classified, like a tuna.", "codex_link": "mermaid-of-amboina" },
+    { "id": "siren-quote", "text": "Pliny the Elder swore sirens existed; medieval bestiaries kept his entry on the books for 1,500 years.", "codex_link": "siren-songs" },
+    { "id": "leviathan-quote", "text": "Job 41 describes Leviathan: 'his sneezings flash forth light, and his eyes are like the eyelids of the morning.'", "codex_link": "leviathan-deep" },
+    { "id": "selkie-port", "text": "Orkney fishermen swore a wife who walked the shore at low tide had hidden her seal-skin in the rafters.", "codex_link": null },
+    { "id": "blemmy-quote", "text": "Maps of Africa drew Blemmyae — men with no heads and faces in their chests — well into the 1600s.", "codex_link": null }
+  ],
+  "interval_ms": 8000,
+  "no_repeat_within": 3
+}

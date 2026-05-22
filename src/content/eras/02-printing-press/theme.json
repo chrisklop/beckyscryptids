@@ -1,0 +1,32 @@
+{
+  "id": "printing-press-broadsheet",
+  "era_id": "printing-press",
+  "fonts": {
+    "masthead": "'Playfair Display', 'EB Garamond', Georgia, 'Times New Roman', serif",
+    "body": "'EB Garamond', Georgia, 'Times New Roman', serif",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap"
+  },
+  "palette": {
+    "background": "#e0d7b8",
+    "surface": "#d4c79a",
+    "text": "#1a1810",
+    "muted": "#5a5240",
+    "accent": "#0d3a5c",
+    "border": "#1a1810"
+  },
+  "riso": {
+    "primary_bg": "#0d3a5c",
+    "primary_shadow": "#b8a572",
+    "primary_text": "#f0e8d0",
+    "secondary_bg": "#d4c89c",
+    "secondary_shadow": "#5a4530",
+    "secondary_text": "#1a1810",
+    "upgrade_bg": "#8b3a1a",
+    "upgrade_shadow": "#0d3a5c",
+    "upgrade_text": "#f0e8d0",
+    "bulk_on_bg": "#0d3a5c",
+    "bulk_on_shadow": "#b8a572",
+    "bulk_on_text": "#f0e8d0"
+  },
+  "card_style": "flat-paper"
+}

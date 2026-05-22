@@ -1,0 +1,32 @@
+{
+  "id": "penny-press-victorian",
+  "era_id": "penny-press",
+  "fonts": {
+    "masthead": "'Bebas Neue', 'Oswald', Impact, sans-serif",
+    "body": "'Roboto Slab', 'Georgia', serif",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@400;700&display=swap"
+  },
+  "palette": {
+    "background": "#1c1a16",
+    "surface": "#2a2620",
+    "text": "#ece6d6",
+    "muted": "#9a907a",
+    "accent": "#d44a2a",
+    "border": "#4a4238"
+  },
+  "riso": {
+    "primary_bg": "#d44a2a",
+    "primary_shadow": "#2a2620",
+    "primary_text": "#fdf6e3",
+    "secondary_bg": "#2a2620",
+    "secondary_shadow": "#d44a2a",
+    "secondary_text": "#ece6d6",
+    "upgrade_bg": "#4a8c3d",
+    "upgrade_shadow": "#2a2620",
+    "upgrade_text": "#fdf6e3",
+    "bulk_on_bg": "#d44a2a",
+    "bulk_on_shadow": "#2a2620",
+    "bulk_on_text": "#fdf6e3"
+  },
+  "card_style": "flat-paper"
+}

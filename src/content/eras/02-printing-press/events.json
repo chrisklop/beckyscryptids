@@ -1,0 +1,51 @@
+[
+  {
+    "id": "kraken-sighting",
+    "headline": "🔥 KRAKEN SURFACES OFF THE NORWEGIAN COAST — SHIP BARELY ESCAPES",
+    "claim_verb": "PRINT THE LOGBOOK",
+    "claim_window_s": 20,
+    "effect": { "type": "rumor_mult", "value": 3.0, "duration_s": 30 },
+    "weight": 2
+  },
+  {
+    "id": "mermaid-at-port",
+    "headline": "🔥 MERMAID HAULED ABOARD A DUTCH MERCHANTMAN",
+    "claim_verb": "ETCH IT",
+    "claim_window_s": 18,
+    "effect": { "type": "rumor_mult", "value": 2.5, "duration_s": 45 },
+    "weight": 2
+  },
+  {
+    "id": "sea-bishop",
+    "headline": "🔥 'SEA BISHOP' DELIVERED TO THE KING OF POLAND",
+    "claim_verb": "PUBLISH IT",
+    "claim_window_s": 20,
+    "effect": { "type": "rumor_mult", "value": 2.0, "duration_s": 60 },
+    "weight": 3
+  },
+  {
+    "id": "sirens-on-the-rocks",
+    "headline": "🔥 CREW SWEARS SIRENS DREW THEM ONTO THE ROCKS",
+    "claim_verb": "WRITE IT UP",
+    "claim_window_s": 22,
+    "effect": { "type": "rumor_mult", "value": 1.75, "duration_s": 90 },
+    "weight": 3
+  },
+  {
+    "id": "great-serpent-bay",
+    "headline": "🔥 GREAT SEA SERPENT SEEN AT THE MOUTH OF GREENLAND'S FJORD",
+    "claim_verb": "BROADSIDE IT",
+    "claim_window_s": 15,
+    "effect": { "type": "rumor_mult", "value": 5.0, "duration_s": 20 },
+    "weight": 1
+  },
+  {
+    "id": "harbor-frenzy",
+    "headline": "⚡ FRENZY: WHOLE FLEET RETURNS WITH MONSTERS — EVERY TAVERN ROARING",
+    "claim_verb": "FILL THE PRESSES",
+    "claim_window_s": 10,
+    "effect": { "type": "rumor_mult", "value": 10.0, "duration_s": 10 },
+    "weight": 1,
+    "is_frenzy": true
+  }
+]
