@@ -30,10 +30,12 @@ const activeTab = ref<'play' | 'tree' | 'codex' | 'more'>('play');
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 440px;
+  margin-inline: auto;
   height: 100dvh;
-  margin: 0;
   padding-top: var(--safe-top);
   background: var(--theme-background, #000);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
   /* Reset Profectus global child-margin */
   box-sizing: border-box;
 }
